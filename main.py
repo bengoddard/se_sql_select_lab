@@ -70,3 +70,5 @@ SELECT orderDate,
     FROM orders;
 """, conn)
 # print(df_day_month_year)
+
+conn.close()
